@@ -143,6 +143,11 @@ input, button{
   transform: rotateZ(0);
 }
 
+.completed {
+  color: #888;
+  text-decoration: line-through;
+}
+
 /* Edit Task */
 
 .ul 
