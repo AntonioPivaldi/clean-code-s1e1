@@ -5,12 +5,12 @@ ul {
   padding: 0px;
 }
 
-li, 
+li,
 h3 {
   list-style: none;
 }
 
-input, 
+input,
 button {
   outline: none;
 }
@@ -39,11 +39,9 @@ button {
 }
 
 @media (max-width:768px) {
-
-  .matrix-info { 
+  .matrix-info {
     text-align: center;
   }
-
 }
 
 .main {
