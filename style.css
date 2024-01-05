@@ -38,7 +38,7 @@ button {
   font-family: Bradley Hand, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .matrix-info {
     text-align: center;
   }
