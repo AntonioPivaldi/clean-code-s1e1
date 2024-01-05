@@ -10,7 +10,8 @@ h3 {
   list-style: none;
 }
 
-input, button{
+input, 
+button {
   outline: none;
 }
 
@@ -33,8 +34,7 @@ input, button{
   width: 100%;
 }
 
-.matrix-info 
-.more-info {
+.matrix-info .more-info {
   font-family: Bradley Hand, cursive;
 }
 
@@ -150,18 +150,15 @@ input, button{
 
 /* Edit Task */
 
-.ul 
-.text {
+.ul .text {
   display: none;
 }
 
-.edit-mode 
-.text {
+.edit-mode .text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode 
-.li-label {
+.edit-mode .li-label {
   display: none;
 }
