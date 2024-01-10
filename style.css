@@ -113,7 +113,7 @@ button {
 
 /* Task list */
 
-.li {
+.todo-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -123,12 +123,25 @@ button {
   align-items: center;
 }
 
-.li__label {
+.todo-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   overflow-wrap: normal;
   width: 226px;
+}
+
+.todo-item__label_edit {
+  display: none;
+}
+
+.todo-item__input {
+  display: none;
+}
+
+.todo-item__input_edit {
+  display: inline-block;
+  width: 224px;
 }
 
 .del-img {
@@ -144,19 +157,4 @@ button {
 .completed {
   color: #888;
   text-decoration: line-through;
-}
-
-/* Edit Task */
-
-.ul .text {
-  display: none;
-}
-
-.edit-mode .text {
-  display: inline-block;
-  width: 224px;
-}
-
-.edit-mode .li__label {
-  display: none;
 }
